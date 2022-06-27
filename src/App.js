@@ -1,25 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form';
+import show_Form from './components/show_Form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Form></Form>
+      <show_Form></show_Form>
+    </main>
   );
 }
-
 export default App;
